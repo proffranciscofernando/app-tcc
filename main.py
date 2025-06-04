@@ -90,7 +90,7 @@ st.markdown(f"[🟩📲 Clique aqui e pergunte pelo WhatsApp]({link_whatsapp})",
 
 st.divider()
 
-st.markdown("### ✍️ Preencha os campos abaixo para começar:")
+st.markdown("### ✍️ Para gerar temas de TCC, por favor preencha os campos abaixo:")
 
 curso = st.text_input("Curso", placeholder="Ex: Engenharia Mecânica, Engenharia Civil, Engenharia de Produção, etc")
 instituicao = st.text_input("Instituição (opcional)")
