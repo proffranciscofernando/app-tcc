@@ -65,28 +65,10 @@ st.markdown("""
 
 Bem-vindo ao seu assistente inteligente para trabalhos de conclusão de curso!
 
-Com base em informações que você fornecer — como curso, área de interesse e tipo de projeto — este aplicativo usa 
-**Inteligência Artificial** para gerar sugestões completas de temas para TCC.
+Este aplicativo usa **Inteligência Artificial** para gerar sugestões completas de temas para TCC,
+com base em informações do curso, área de interesse, tipo de projeto e restrições/recomendações.
 
 """, unsafe_allow_html=True)
-
-st.divider()
-
-st.markdown("""
-### 🤖 Aprenda a criar aplicativos como esse, mesmo sem saber programar!
-👇👇👇 Inscrições e dúvidas sobre workshop de apps com IA
-
-""", unsafe_allow_html=True)
-
-# Link do WhatsApp com número (formato internacional, sem + ou espaços)
-telefone = "5583999504777"
-mensagem = "Olá, tenho interesse no workshop de IA!"
-
-# Criar o link completo com mensagem
-link_whatsapp = f"https://wa.me/{telefone}?text={mensagem.replace(' ', '%20')}"
-
-# Exibir o botão/link clicável
-st.markdown(f"[🟩📲 Clique aqui e pergunte pelo WhatsApp]({link_whatsapp})", unsafe_allow_html=True)
 
 st.divider()
 
