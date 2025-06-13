@@ -56,7 +56,7 @@ Use linguagem clara, técnica e acadêmica.
 # ----------------------------
 
 
-st.set_page_config(page_title="Gerador de TCC com IA", page_icon="🎓", layout="centered")
+st.set_page_config(page_title="Temas de TCC com IA", page_icon="🎓", layout="centered")
 
 st.image("image.png", use_container_width=True)
 
@@ -72,7 +72,7 @@ com base em informações do curso, área de interesse, tipo de projeto e restri
 
 st.divider()
 
-st.markdown("### ✍️ Para gerar temas de TCC, por favor preencha os campos abaixo:")
+st.markdown("### ✍️ Para gerar temas de TCC, por favor preencha os campos:")
 
 curso = st.text_input("Curso", placeholder="Ex: Engenharia Mecânica, Engenharia Civil, Engenharia de Produção, etc")
 instituicao = st.text_input("Instituição (opcional)")
